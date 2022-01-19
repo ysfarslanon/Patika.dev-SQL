@@ -1,0 +1,1 @@
+# Sql temelleri Ödev 1
