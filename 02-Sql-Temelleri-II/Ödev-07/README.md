@@ -12,12 +12,24 @@
 
 ## Cevaplar
 
-1. Soru	``SELECT rating FROM film GROUP BY(rating);``
+1. Soru	
+```SQL
+SELECT rating FROM film GROUP BY(rating);
+```
 
-2. Soru	``SELECT replacement_cost, COUNT(replacement_cost) FROM film GROUP BY(replacement_cost) HAVING COUNT(replacement_cost) > 50;``	
+2. Soru	
+```SQL
+SELECT replacement_cost, COUNT(replacement_cost) FROM film GROUP BY(replacement_cost) HAVING COUNT(replacement_cost) > 50;
+```
 
-3. Soru ``SELECT store_id, COUNT(store_id) FROM customer GROUP BY(store_id);``
+3. Soru 
+```SQL
+SELECT store_id, COUNT(store_id) FROM customer GROUP BY(store_id);
+```
 
-4. Soru ``SELECT country_id, COUNT(*) FROM city GROUP BY(country_id) ORDER BY COUNT(*) DESC LIMIT 1;``
+4. Soru 
+```SQL
+SELECT country_id, COUNT(*) FROM city GROUP BY(country_id) ORDER BY COUNT(*) DESC LIMIT 1;
+```
 
 ***SQL dosyası mevcuttur***
