@@ -14,18 +14,42 @@
 
 1. Soru	
 ```SQL
-
+(SELECT first_name FROM actor)
+UNION
+(SELECT first_name FROM customer)
 ```
 
 2. Soru	
-
 ```SQL 
-
+(SELECT first_name FROM actor)
+INTERSECT
+(SELECT first_name FROM customer)
 ```
 
 3. Soru 
 ```SQL
+(SELECT first_name FROM actor)
+EXCEPT
+(SELECT first_name FROM customer)
+```
 
+4. Soru
+```SQL
+(SELECT first_name FROM actor)
+UNION ALL
+(SELECT first_name FROM customer)
+```
+
+```SQL
+(SELECT first_name FROM actor)
+INTERSECT ALL
+(SELECT first_name FROM customer)
+```
+
+```SQL
+(SELECT first_name FROM actor)
+EXCEPT ALL
+(SELECT first_name FROM customer)
 ```
 
 ***SQL dosyası mevcuttur***
